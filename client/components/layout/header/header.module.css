@@ -11,7 +11,7 @@
   transition: box-shadow cubic-bezier(0.165, 0.84, 0.44, 1) 0.25s;
   height: 50px;
   box-sizing: border-box;
-  border-top: 3px solid var(--orange);
+  border-top: 3px solid var(--green);
 }
 .dspan {
  color: azure;
@@ -52,11 +52,11 @@
   height: 100%;
   padding: 0 8px;
   font-size: 22px;
-  color: var(--black-800);
+  color: var(--blue-800);
   font-family: sans-serif;
 
   &:hover {
-    color: var(--black-700);
+    color: var(--blue-100);
   }
 
   @media (--m) {

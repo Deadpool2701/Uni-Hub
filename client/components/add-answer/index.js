@@ -39,7 +39,14 @@ const AddAnswer = ({ id, tags, setQuestion }) => {
           .required('Body is missing.')
           .min(30, 'Body must be at least 30 characters.')
           .max(30000, 'Body cannot be longer than 30000 characters.')
+          .matches(/^(?:.(?!retard|fuck|nigger|asshole|porn|douche|faggot|whore|stupid|dumb))+$/, "Please use respectful language")
       })}
+    //   matches(
+    //     regex: RegExp,
+    //     messageOrOptions?:
+    //         | StringLocale['matches']
+    //         | { message?: StringLocale['matches'] | undefined; excludeEmptyString?: boolean | undefined },
+    // ): StringSchema<T, C>;
     >
       {({
         values,
@@ -62,6 +69,7 @@ const AddAnswer = ({ id, tags, setQuestion }) => {
             hasError={touched.text && errors.text}
             errorMessage={errors.text && errors.text}
             className={styles.textarea}
+
           />
           <p className={styles.status}>{status}</p>
           <div className={styles.button}>

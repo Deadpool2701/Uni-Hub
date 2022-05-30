@@ -46,23 +46,23 @@ const Header = ({ className, ...props }) => {
         <Button className={styles.logo} href="/">
           <Logo />
           <p >
-            <span className="dspan">UNI HUB</span> 
+            <span className="dspan" style={{color: "white"}}>UNI HUB</span> 
           </p>
         </Button>
         <div style={{ flex: 1 }}></div>
 
         {isAuthenticated() ? (
           <div className={styles.userInfo}>
-            <p>
+            <p style={{color: "white"}}>
               Welcome{' '}
               <Link
                 href="/users/[user]"
                 as={`/users/${authState.userInfo.username}`}
               >
-                <a>{authState.userInfo.username}!</a>
+                <a style={{color: "white"}}><strong>{authState.userInfo.username}!</strong></a>
               </Link>
             </p>
-            <a onClick={() => logout()}>log out</a>
+            <a style={{color: "white"}} onClick={() => logout()}>log out</a>
           </div>
         ) : (
           <>

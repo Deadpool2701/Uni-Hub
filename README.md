@@ -1,7 +1,7 @@
 ## Stackoverflow Clone
- - Live: http://clone-of-stackoverflow.vercel.app/
+ - Live: 
 
-This project is a simplified a full stack clone of Stackoverflow. I wrote it to learn more about Nodejs, React/Next, pixel perfect design and NoSQL databases in general. Feel free to contribute!
+This project is a hub for university students. I wrote it to learn more about Nodejs, React/Next, pixel perfect design and NoSQL databases in general. Feel free to contribute!
 
 ## :rocket: Tech Stack
 
@@ -24,7 +24,7 @@ This project is a simplified a full stack clone of Stackoverflow. I wrote it to 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/salihozdemir/stackoverflow-clone
+$ git clone 
 
 # Go into the repository
 $ cd stackoverflow-clone
@@ -80,7 +80,7 @@ $ yarn test
 
 - 
         # Go into the repository
-        $ cd stackoverflow-clone
+        $ cd unihub
 
         # Heroku Setup
         $ npm install -g heroku

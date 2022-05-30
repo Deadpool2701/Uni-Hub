@@ -16,7 +16,7 @@ export const Default = () => (
         'his is a free online calculator which counts the number of characters or letters in a text, useful for your tweets on Twitter, as well as a multitudee'
       }
       tags={['javascript', 'text']}
-      author={'salihozdemir'}
+      author={'Amogh Mohta'}
       createdTime={'1 min ago'}
     >
       lorem ipsum question question question question question question question

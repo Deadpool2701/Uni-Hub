@@ -36,11 +36,13 @@ const QuestionForm = () => {
         title: Yup.string()
           .required('Title is missing.')
           .max(150, 'Title cannot be longer than 150 characters.')
-          .min(15, 'Title must be at least 15 characters.'),
+          .min(15, 'Title must be at least 15 characters.')
+          .matches(/^(?:.(?!retard|fuck|nigger|asshole|porn))+$/, "Please use respectful language"),
         text: Yup.string()
           .required('Body is missing.')
           .min(30, 'Body must be at least 30 characters.')
-          .max(30000, 'Body cannot be longer than 30000 characters.'),
+          .max(30000, 'Body cannot be longer than 30000 characters.')
+          .matches(/^(?:.(?!retard|fuck|nigger|asshole|porn))+$/, "Please use respectful language"),
         tags: Yup.array()
           .required('Please enter at least one tag.')
           .max(5, 'Please enter no more than 5 tags.')

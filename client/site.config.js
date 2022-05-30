@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Stackoverflow',
-  description: 'Where Developers Learn & Share',
-  siteUrl: 'https://clone-of-stackoverflow.vercel.app',
+  title: 'UNI HUB',
+  description: 'Where Students Learn & Share',
+  siteUrl: '',
   googleAnalytic: 'UA-149699646-1',
   author: {
-    email: 'salihozdemir94@gmail.com',
-    name: 'Salih Özdemir'
+    email: 'amoghmohta27@gmail.com',
+    name: 'Amogh Mohta'
   },
   lang: 'en'
 }

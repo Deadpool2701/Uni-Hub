@@ -44,6 +44,7 @@ const AddComment = ({
           .required('Comment is missing.')
           .min(5, 'Comment must be at least 5 characters.')
           .max(1000, 'Comment cannot be longer than 1000 characters.')
+          .matches(/^(?:.(?!retard|fuck|nigger|asshole|porn))+$/, "Please use respectful language")
       })}
     >
       {({

@@ -1,7 +1,7 @@
 {
-  "name": "stackoverflow-api",
+  "name": "UNI HUB",
   "version": "1.0.0",
-  "description": "Stackoverflow Clone Server",
+  "description": "UNI HUB",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,12 +9,11 @@
     "test": "jest"
   },
   "keywords": [
-    "Stackoverflow",
-    "Clone",
+    "UNI HUB",
     "Rest",
     "MERN"
   ],
-  "author": "Salih Ozdemir",
+  "author": "Amogh Mohta",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

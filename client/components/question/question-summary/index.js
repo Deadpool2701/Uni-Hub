@@ -31,7 +31,7 @@ const QuestionSummary = ({
           <Link href="/users/[user]" as={`/users/${author.username}`}>
             <a>
               <img
-                src={`https://secure.gravatar.com/avatar/${author.id}?s=32&d=identicon`}
+                src={`https://avatars.dicebear.com/api/human/${author.id}.svg`}
                 alt={author.username}
               />
             </a>

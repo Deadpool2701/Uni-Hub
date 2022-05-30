@@ -8,7 +8,7 @@ const userModel = new Schema({
   profilePhoto: {
     type: String,
     default: function () {
-      return `https://secure.gravatar.com/avatar/${this._id}?s=90&d=identicon`;
+      return `https://avatars.dicebear.com/api/human/${this.id}.svg`;
     }
   },
   created: { type: Date, default: Date.now }
