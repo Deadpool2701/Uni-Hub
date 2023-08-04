@@ -1,4 +1,4 @@
-## Stackoverflow Clone
+## UNI HUB
  - Live: 
 
 This project is a hub for university students. I wrote it to learn more about Nodejs, React/Next, pixel perfect design and NoSQL databases in general. Feel free to contribute!
@@ -27,7 +27,7 @@ This project is a hub for university students. I wrote it to learn more about No
 $ git clone 
 
 # Go into the repository
-$ cd stackoverflow-clone
+$ cd uni-hub
 
 # Go into server
 $ cd server
